@@ -1,0 +1,15 @@
+body::before{
+    content: "";
+    margin-top: 2rem;
+    display: block;
+}
+@media (min-width:768px) {
+    .news-input{
+        width: 50%;
+    }
+}
+.round{
+    height: 10em;
+    width: 10em;
+    border-radius: 50%;
+}
